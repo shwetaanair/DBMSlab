@@ -1,4 +1,4 @@
-* Create table customer values(cust_id varchar(5), name varchar(10),salary int);
+* Create table customer(cust_id varchar(5), name varchar(10),salary int);
 CUSTOMER TABLE CREATED!
   
 * Insert into customer values('C01','Shwetha','23000');
