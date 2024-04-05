@@ -7,17 +7,15 @@ CUSTOMER TABLE CREATED!
   Insert into customer values('C04','Abhirami','53000');
 VALUES INSERTED!
   
-select * from customer;
+* select * from customer;
 TABLE WILL BE SHOWN!
 
-
-
-
+* In Text Editor type:-
 
 declare
    total_rows number (3);
 begin
-   update CUSTOMER set salary = salary + 2000;
+   update customer set salary = salary + 2000;
    if sql%notfound then
      dbms_output.put_line('no customer selected');
    elsif sql%found then
@@ -26,3 +24,8 @@ begin
      end if;
      end;
      /
+
+       
+* @filename.sql
+
+
