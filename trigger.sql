@@ -134,7 +134,18 @@ salary difference -297000
 SQL> 
 
 
+SQL> delete from customer where c_id=104;
 
-Then set serveroutput on
+1 row deleted.
+
+SQL> select * from customer;
+
+      C_ID E_NAME	       SALARY
+---------- --------------- ----------
+       101 abhishek		 3000
+       102 nayan		 3000
+       103 sam			40000
+       105 sruthy		30000
+
 
 
